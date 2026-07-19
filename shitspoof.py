@@ -84,7 +84,7 @@ async def run():
     try:
         ps4 = PS4Debug(host=PS4_IP, port=PS4DEBUG_PORT, timeout=15.0)
         procs = await ps4.get_processes()
-        print(f"connected! {len(procs)} processes")
+        print(f"connected to ps4debug")
     except Exception as e:
         print(f"connection failed: {e}")
         return False
@@ -109,6 +109,7 @@ async def run():
 
     print("\n" + "=" * 60)
     if total > 0:
+        await ps4.notify("hello from shitsploof!")
         print(f"done! {total} patch(es*) applied")
         print(f"{CURRENT_FW} -> {TARGET_FW}")
         print()
@@ -121,7 +122,8 @@ async def run():
 
 
 def main():
-    print("shitspoof 0.0: never update edition")
+    global PS4_IP, TARGET_FW, CURRENT_FW
+    print("shitspoof 0.0001: never update edition")
     print("thanks: andrew2007, lucas firmware spoofer for the way text is changed")
     version = input(f"what version are you looking to spoof to? (i.e.: 13.52, 69.69): ").strip()
     if version:
