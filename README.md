@@ -19,6 +19,5 @@ then:<br>
 `python shitspoof.py`<br>
 everything prompts you very self explanatory yes
 
-# proofs:
-![proof](proof.png)
+# proof:
 ![proof2](proof2.png)
