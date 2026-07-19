@@ -4,7 +4,7 @@ spoofs your ps4 firmware version. resets upon rest mode/shutdown.<br>
 works on ps4 firmware ?-13.00
 
 # thanks:
-*random unnamed ai guy: AI is terrible and since you didn't write a single thing, but an AI did this is an untruthful thanks (fuck ai)<br>
+*random unnamed ai guy: yes, i took your idea. however, AI is terrible and since you didn't write a single thing, this is an untruthful thanks (fuck ai)<br>
 *andrew2007: testing and baring through my bullshit, being a cool guy<br>
 *me: i didn't do much, and i'm not very proud of this script, please don't bully me for editing some ai slop into a slightly usable script
 
