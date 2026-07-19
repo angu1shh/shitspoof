@@ -1,5 +1,5 @@
 # shitspoof ps4
-terrible terrible ai slop ps4 spoof script repurposed to ask questions, rather than rewriting the script and doesn't search for random things in memory.
+terrible terrible ai slop ps4 spoof script repurposed to ask questions, rather than rewriting the script. also doesn't search for random things in memory.
 spoofs your ps4 firmware version. resets upon rest mode/shutdown
 works on ps4 firmware ?-13.00
 
