@@ -5,3 +5,8 @@ dependencies:
 python3, ps4debug. you will need to load ps4debug.bin from https://github.com/GoldHEN/ps4debug to the console and also `pip install ps4debug`
 
 works on ps4 firmware ?-13.00
+
+tutorial:
+`python shitspoof.py`
+
+everything prompts you very self explanatory yes
