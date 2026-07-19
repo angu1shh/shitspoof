@@ -15,5 +15,6 @@ python3, ps4debug. you will need to load ps4debug.bin from https://github.com/Go
 `python shitspoof.py`
 everything prompts you very self explanatory yes
 
-# proof:
+# proofs:
 ![proof](proof.png)
+![proof2](proof2.png)
