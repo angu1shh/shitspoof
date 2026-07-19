@@ -123,17 +123,17 @@ async def run():
 def main():
     print("shitspoof 0.0: never update edition")
     print("thanks: andrew2007, lucas firmware spoofer for the way text is changed")
-    version = input(f"What version are you looking to spoof to? (i.e.: 13.52, 69.69): ").strip()
+    version = input(f"what version are you looking to spoof to? (i.e.: 13.52, 69.69): ").strip()
     if version:
         TARGET_FW = version
-    ip = input(f"What's your PS4 IP address? (i.e.: 10.0.0.1, 192.168.0.1?): ").strip()
+    ip = input(f"what's your PS4 IP address? (i.e.: 10.0.0.1, 192.168.0.1?): ").strip()
     if ip:
         PS4_IP = ip
-    c_version = input(f"What version are you currently using? (i.e.: 5.05, 6.72, 9.00, 11.00) *THIS INCLUDES ALREADY SPOOFED FW'S, IF YOU SPOOFED TO 13.52, WRITE 13.52* : ").strip()
+    c_version = input(f"what version are you currently using? (i.e.: 5.05, 6.72, 9.00, 11.00) *THIS INCLUDES ALREADY SPOOFED FW'S, IF YOU SPOOFED TO 13.52, WRITE 13.52* : ").strip()
     if c_version:
         CURRENT_FW = c_version
     
-    print(f"IP: {PS4_IP}, Target: {TARGET_FW}, Current: {CURRENT_FW} (If any of these are blank, rerun the script, it won't work)")
+    print(f"IP: {PS4_IP}, target fw: {TARGET_FW}, current fw: {CURRENT_FW} (if any of these are blank, rerun the script, it won't work)")
     asyncio.run(run())
 
 
