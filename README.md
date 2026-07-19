@@ -9,8 +9,12 @@ python3, ps4debug. you will need to load ps4debug.bin from https://github.com/Go
 tutorial:
 `python shitspoof.py`
 
-everything prompts you very self explanatory yes
+Thanks:
+random unnamed ai guy: AI is terrible and since you didn't write a single thing, but an AI did this is an untruthful thanks (fuck ai)
+andrew2007: testing and baring through my bullshit, being a cool guy
+me: i didn't do much, and i'm not very proud of this script, please don't bully me for editing some ai slop into a slightly usable script :(
 
+everything prompts you very self explanatory yes
 
 proof:
 ![proof](proof.png)
