@@ -10,3 +10,7 @@ tutorial:
 `python shitspoof.py`
 
 everything prompts you very self explanatory yes
+
+
+proof:
+![proof](proof.png)
